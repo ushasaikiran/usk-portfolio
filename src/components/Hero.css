@@ -258,3 +258,143 @@ a.btn {
     width: 180px;
   }
 }
+@media (max-width: 900px) {
+  .hero {
+    padding: 120px var(--container-pad) 60px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;   /* stack left + right */
+    gap: 32px;
+    text-align: left;
+  }
+
+  .hero-left {
+    order: 1;
+  }
+
+  .hero-right {
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 52px; /* Welcome */
+    line-height: 1.05;
+  }
+
+  .hero-role {
+    font-size: 44px; /* Data Analyst */
+    line-height: 1.05;
+  }
+
+  .hero-desc {
+    max-width: 520px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .avatar-wrap {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 110px var(--container-pad) 50px;
+  }
+
+  .hero-title {
+    font-size: 44px;
+  }
+
+  .hero-role {
+    font-size: 38px;
+  }
+
+  .avatar-wrap {
+    width: 220px;
+    height: 220px;
+  }
+}
+/* =========================
+   MOBILE RESPONSIVE FIXES
+========================= */
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 120px 20px 60px;
+  }
+
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr; /* stack vertically */
+    gap: 32px;
+    align-items: center;
+  }
+
+  .hero-left {
+    order: 1;
+    text-align: left;
+  }
+
+  .hero-right {
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-left h1 {
+    font-size: 44px;
+    line-height: 1.1;
+  }
+
+  .hero-left h2 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .hero-left p {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 520px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .avatar,
+  .avatar-wrap {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 100px 16px 50px;
+  }
+
+  .hero-left h1 {
+    font-size: 38px;
+  }
+
+  .hero-left h2 {
+    font-size: 32px;
+  }
+
+  .avatar,
+  .avatar-wrap {
+    width: 220px;
+    height: 220px;
+  }
+}
