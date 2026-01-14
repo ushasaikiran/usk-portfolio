@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar";
-import Hero from "./Components/Hero";
-import Sections from "./Components/Sections";
-import Contact from "./components/Contact";
-import WhatIDo from "./components/WhatIDo";
-import Footer from "./components/Footer";
-import BackToTop from "./components/BackToTop";
-import Chatbot from "./components/Chatbot";
+import Navbar from "./compo/Navbar";
+import Hero from "./compo/Hero";
+import Sections from "./compo/Sections";
+import Contact from "./compo/Contact";
+import WhatIDo from "./compo/WhatIDo";
+import Footer from "./compo/Footer";
+import BackToTop from "./compo/BackToTop";
+import Chatbot from "./compo/Chatbot";
 
 
 
