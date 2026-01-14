@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import "./Hero.css";
-import profile from "../assets/formal.PNG";
+import profile from "../assets/geminiformal.PNG";
 
 
 function Hero() {
