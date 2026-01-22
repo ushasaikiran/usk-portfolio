@@ -38,7 +38,7 @@ function Hero() {
           <h2 className="role">Data Analyst</h2>
 
           <p className="subtitle">
-           **Data science** practitioner and web developer who builds modern web apps,
+           A Data science practitioner and web developer who builds modern web apps,
             dashboards, and scalable solutions using React and data-driven thinking.
           </p>
 
