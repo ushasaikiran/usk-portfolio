@@ -26,7 +26,7 @@ function Hero() {
       {/* Main Content */}
       <div className="hero-content">
         <div className="hero-left">
-          <h1 className="welcome">Hey Welcome!</h1>
+          <h1 className="welcome">Hey Welcome !</h1>
 
           <div className="intro-line">
             <span className="im-text">I'm</span>
@@ -35,7 +35,7 @@ function Hero() {
             </span>
           </div>
 
-          <h2 className="role"> a Data Analyst</h2>
+          <h2 className="role">Data Analyst</h2>
 
           <p className="subtitle">
            A Data science practitioner and web developer who builds modern web apps,
