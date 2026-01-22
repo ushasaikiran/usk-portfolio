@@ -26,7 +26,7 @@ function Hero() {
       {/* Main Content */}
       <div className="hero-content">
         <div className="hero-left">
-          <h1 className="welcome">Hey Welcome !</h1>
+          <h1 className="welcome">Hey Welcome!</h1>
 
           <div className="intro-line">
             <span className="im-text">I'm</span>
