@@ -38,7 +38,7 @@ function Hero() {
           <h2 className="role">Data Engineer</h2>
 
           <p className="subtitle">
-           A Data Engineer designs and builds scalable data pipelines that collect, process, and store data from multiple sources. They model and organize data in warehouses or data lakes, ensure data quality and reliability, and optimize performance and costs. Their work enables analysts, data scientists, and applications to use clean, trustworthy data for reporting, analytics, and machine learning.
+           A Data Engineer designs and builds scalable data pipelines that collects, process and store data from multiple sources. They model and organize data in warehouses or data lakes, ensure data quality and reliability, and optimize performance and costs. Their work enables analysts, data scientists, and applications to use clean, trustworthy data for reporting, analytics, and machine learning.
 
           </p>
 
