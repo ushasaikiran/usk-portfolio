@@ -183,7 +183,7 @@ function Sections() {
           <div className="contact-right">
             <div className="contact-row">
               <span className="label">Email</span>
-              <a href="mailto:uppala.usk@email.com">uppala.usk@email.com</a>
+              <a href="mailto:uppala.usk@email.com">uppala.usk@gmail.com</a>
             </div>
 
             <div className="contact-row">
